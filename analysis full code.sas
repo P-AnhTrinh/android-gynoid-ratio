@@ -131,8 +131,6 @@ run;
 ************************************************
 ************************************************;
 
-libname fnv2 'C:\Users\lkakinam\Dropbox\Students\Fidelite\Project coding\V2\Data'; 
-
 proc sort data=fnv2.v2be; 
 by nif; 
 proc sort data=fnv2.v2fe; 
